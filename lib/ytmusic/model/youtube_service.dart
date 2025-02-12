@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'video.dart';
 
 class YouTubeService {
-  final String apiKey = 'AIzaSyAiNfcivpK2uOsNNPtflVg5GXPiSe-5O7g';
+  final String apiKey = 'YOUR YOUTUBE API KEY';
 
   Future<List<Video>> fetchMusicVideos(String query) async {
     try {
